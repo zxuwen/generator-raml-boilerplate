@@ -1,0 +1,22 @@
+{
+  "name": "raml-boilerplate-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node index.js",
+    "docs": "node doc.js",
+    "docs:md": "raml2html --theme raml2html-markdown-theme tutorial-jukebox-api/jukebox-api.raml > api-doc.md",
+    "docs:html": "raml2html tutorial-jukebox-api/jukebox-api.raml > api-doc.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "opn": "^5.1.0",
+    "osprey": "^0.4.1",
+    "osprey-mock-service": "^0.2.1",
+    "raml2html": "^6.4.1",
+    "raml2html-markdown-theme": "^1.0.2"
+  }
+}

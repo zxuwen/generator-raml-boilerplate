@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Zhang Xuwen",
+      "authorEmail": "z.xuwen@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
